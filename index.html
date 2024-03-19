@@ -12,7 +12,7 @@
     <div id='app'>
         <h2>Email list:</h2>
         <div class="container">
-            <ul>
+            <ul v-if="flag">
                 <li v-for="mail in listMail">{{mail}}</li>
             </ul>
         </div>
